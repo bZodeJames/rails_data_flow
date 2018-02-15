@@ -1,0 +1,20 @@
+<%= form_with(model: @article, local: true) do |f| %>
+  <div class="field">
+    <%= f.text_field :title, id: :article_title, placeholder: "Enter Title" %>
+  </div>
+<br>
+  <div class="field">
+    <%= f.text_field :author, id: :article_author, placeholder: "Author" %>
+  </div>
+<br>
+  <div class="field">
+    <%= f.number_field :rating, id: :article_rating, max: 5, min: 1, placeholder: "Rating (1-5)" %>
+  </div>
+<br>
+  <div class="field">
+    <%= f.text_area :body, id: :article_body, placeholder: "Enter article" %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
