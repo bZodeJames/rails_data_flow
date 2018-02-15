@@ -1,8 +1,8 @@
 # README
 
-#Learning the Rails Data Flow
+# Learning the Rails Data Flow
 
-###Getting Started
+### Getting Started
 
 Step 1) Inside your terminal type in 
     'git clone https://github.com/bZodeJames/rails_data_flow.git'
@@ -14,7 +14,7 @@ Step 3) Once you are in the project from your terminal type the following
     'rails db:create'
     'rails db:setup'
 
-###What's Inside
+### What's Inside
 
 This simple Rails application uses a rails resource generator for the model 'Article'
 
@@ -43,6 +43,6 @@ def favorites
 end
 ```
 
-This is now available to call in your favorites page. 
+@favorites is now available to call in your favorites page, to show each article with a rating of 4 or 5.
 
 
