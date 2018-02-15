@@ -24,31 +24,15 @@ The article views contain your index, show, edit, and new pages, as well as the 
 ### Rails Challenge
 (You can complete this individually or along with the webinar)
 
-Set up a pages_controller and a custom scope inside of the articles model for all articles with a rating of 4 or greater.
+Set up a pages_controller with the pages home, about, and favorites
 
+Create a custom scope inside of the articles model for all articles with a rating of 4 or greater
 
-### Solution 
+Make your scope available to the favorites page, and display the artilces within the scope on the favorites page
 
-Custom scope for article rating:
+Extra credit:
+Run another resource generator of your choice and use at least 3 different rails data types. 
+Build out the CRUD functionality from scratch. 
 
-You can paste the following code inside your app/models/article.rb to create a custom scope for all articles with a rating over 3.
-
-```ruby
-def high_ratings
-    where("rating > ?", 3)
-end
-```
-To run your pages controller you can run the following inside your terminal
-rails g controller Pages home about favorites
-
-To finish the custom scope inside app/controllers/pages_controller.rb you can add the following code inside the favorites method.
-
-```ruby 
-def favorites
-    @favorites = Article.high_ratings
-end
-```
-
-@favorites is now available to call in your favorites page, to show each article with a rating of 4 or 5.
 
 
