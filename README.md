@@ -22,8 +22,12 @@ The articles controller (app/controllers/article_controller.rb) is set up for ba
 The article views contain your index, show, edit, and new pages, as well as the form partial.
 
 ### Rails Challenge
-(You can complete this indidually or along with the webinar)
-During the webinar we will be setting up a pages_controller and a custom scope inside of the articles model.
+(You can complete this individually or along with the webinar)
+
+Set up a pages_controller and a custom scope inside of the articles model for all articles with a rating of 4 or greater.
+
+
+### Solution 
 
 Custom scope for article rating:
 
