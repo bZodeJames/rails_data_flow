@@ -21,6 +21,8 @@ This simple Rails application uses a rails resource generator for the model 'Art
 The articles controller (app/controllers/article_controller.rb) is set up for basic CRUD functionality.
 The article views contain your index, show, edit, and new pages, as well as the form partial.
 
+### Rails Challenge
+(You can complete this indidually or along with the webinar)
 During the webinar we will be setting up a pages_controller and a custom scope inside of the articles model.
 
 Custom scope for article rating:
